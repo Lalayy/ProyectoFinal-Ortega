@@ -1,0 +1,34 @@
+body{
+    header{
+        background-color: headerBG;
+        .banner{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            height: $banner-size;
+            background-color: $banner-background-color;
+            & img{
+                height: 300px;
+            }
+            h1{
+                color: $banner-title-color;
+            }
+        }
+    }
+    main{
+        background-color: rgb(20, 62, 62);
+
+        section{
+            height: 300px;
+        }
+    }
+}
+.sectionTrailer{
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    & div{
+        justify-self: center;
+        align-self: center;
+    }
+}
