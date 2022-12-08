@@ -19,7 +19,7 @@ body{
         }
     }
     main{
-        background-color: rgb(20, 62, 62);
+        background-color: rgb(94, 63, 84);
 
         .sectionTrailer{
             height: 250px;
@@ -71,8 +71,12 @@ body{
 .sectionJustify{
     & h1{
         text-align: center;
+        color: white;
     }
     & p{
+        padding: 20px;
+        border: 20px;
         text-align: justify;
+        color: white;
     }
 }

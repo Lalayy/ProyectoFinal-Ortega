@@ -23,7 +23,7 @@ body {
       body header .banner h1 {
         color: yellow; }
   body main {
-    background-color: #143e3e; }
+    background-color: #5e3f54; }
     body main .sectionTrailer {
       height: 250px;
       background-color: #483D8B;
@@ -62,10 +62,14 @@ body {
     padding: 20px; }
 
 .sectionJustify h1 {
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
 .sectionJustify p {
-  text-align: justify; }
+  padding: 20px;
+  border: 20px;
+  text-align: justify;
+  color: white; }
 
 @media screen and (min-width: 400px) {
   body header .banner {
