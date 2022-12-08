@@ -1,8 +1,28 @@
-@media only screen and (min-width:400px){
+@media screen and (min-width:400px){
     body header .banner{
         height: 300px;
     }
     body header .banner img{
         height: 250px;
+    }
+    body main .sectionTrailer{
+        height: 400px;
+        background-color:$trailer-background-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rotateWorld{
+        & img{
+            width: 300px;
+        }
+    }
+    .otherProjectsImg{
+        text-align: center;
+        & img{
+            width: 350px;
+            padding: 20px;
+            
+        }
     }
 }

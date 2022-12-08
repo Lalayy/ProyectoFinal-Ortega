@@ -5,6 +5,7 @@
 
 /* Banner */
 /* Trailer */
+/* /////////////////////// */
 body {
   background-color: 343940; }
   body header {
@@ -24,7 +25,7 @@ body {
   body main {
     background-color: #143e3e; }
     body main .sectionTrailer {
-      height: 300px;
+      height: 250px;
       background-color: #483D8B;
       display: flex;
       align-items: center;
@@ -52,11 +53,13 @@ body {
   padding: 20px; }
   .rotateWorld img {
     padding: 5px;
-    width: 300px; }
+    width: 200px; }
 
-.otherProjectsImg img {
-  width: 300px;
-  padding: 20px; }
+.otherProjectsImg {
+  text-align: center; }
+  .otherProjectsImg img {
+    width: 250px;
+    padding: 20px; }
 
 .sectionJustify h1 {
   text-align: center; }
@@ -64,11 +67,24 @@ body {
 .sectionJustify p {
   text-align: justify; }
 
-@media only screen and (min-width: 400px) {
+@media screen and (min-width: 400px) {
   body header .banner {
     height: 300px; }
   body header .banner img {
-    height: 250px; } }
+    height: 250px; }
+  body main .sectionTrailer {
+    height: 400px;
+    background-color: #483D8B;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .rotateWorld img {
+    width: 300px; }
+  .otherProjectsImg {
+    text-align: center; }
+    .otherProjectsImg img {
+      width: 350px;
+      padding: 20px; } }
 
 @keyframes rotacion {
   from {

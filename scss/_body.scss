@@ -21,8 +21,8 @@ body{
     main{
         background-color: rgb(20, 62, 62);
 
-        & .sectionTrailer{
-            height: 300px;
+        .sectionTrailer{
+            height: 250px;
             background-color:$trailer-background-color;
             display: flex;
             align-items: center;
@@ -57,13 +57,15 @@ body{
     padding: 20px;
     img{
         padding: 5px;
-        width: 300px;
+        width: 200px;
     }
 }
 .otherProjectsImg{
+    text-align: center;
     & img{
-        width: 300px;
+        width: 250px;
         padding: 20px;
+        
     }
   }
 .sectionJustify{
