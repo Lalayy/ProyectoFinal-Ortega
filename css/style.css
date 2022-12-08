@@ -34,8 +34,7 @@ body {
       padding: 20px; }
       body main .sectionGaleria img {
         padding: 5px;
-        width: 180px;
-        justify-items: center; }
+        width: 180px; }
   body footer {
     grid-area: footer;
     background-color: #474747;
@@ -49,8 +48,40 @@ body {
       body footer .footerContact a {
         color: #1a1616; }
 
+.rotateWorld {
+  padding: 20px; }
+  .rotateWorld img {
+    padding: 5px;
+    width: 300px; }
+
+.otherProjectsImg {
+  text-align: center; }
+  .otherProjectsImg img {
+    width: 300px;
+    padding: 20px; }
+
+.sectionJustify h1 {
+  text-align: center; }
+
+.sectionJustify p {
+  text-align: justify; }
+
 @media only screen and (min-width: 400px) {
   body header .banner {
     height: 300px; }
   body header .banner img {
-    height: 250px; } }
+    height: 250px; }
+  .otherProjectsImg {
+    width: 200px; } }
+
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.rotate {
+  animation-name: rotacion;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }

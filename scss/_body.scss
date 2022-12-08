@@ -34,7 +34,6 @@ body{
             img{
                 padding: 5px;
                 width: 180px;
-                justify-items: center;
             }
         }
     }
@@ -52,5 +51,26 @@ body{
                 color: rgb(26, 22, 22);
             }
         }
+    }
+}
+.rotateWorld{
+    padding: 20px;
+    img{
+        padding: 5px;
+        width: 300px;
+    }
+}
+.otherProjectsImg{
+    & img{
+        width: 300px;
+        padding: 20px;
+    }
+  }
+.sectionJustify{
+    & h1{
+        text-align: center;
+    }
+    & p{
+        text-align: justify;
     }
 }
