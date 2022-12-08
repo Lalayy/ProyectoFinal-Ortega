@@ -5,4 +5,13 @@ $banner-title-color:yellow;
 /* Trailer */
 $trailer-background-color:#483D8B;
 
+/* Mixing */
+@mixin sectionImg($padding, $with){
+    padding: $padding;
+    img{
+        padding: $padding;
+        width: $with;  
+    }
+}
 /* /////////////////////// */
+

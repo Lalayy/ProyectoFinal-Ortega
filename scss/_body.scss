@@ -54,18 +54,14 @@ body{
     }
 }
 .rotateWorld{
-    padding: 20px;
-    img{
-        padding: 5px;
-        width: 200px;
-    }
+@include sectionImg (5px, 300px)
 }
 .otherProjectsImg{
+    padding: 20px;
     text-align: center;
-    & img{
-        width: 250px;
+    img{
         padding: 20px;
-        
+        width: 250px;
     }
   }
 .sectionJustify{

@@ -5,6 +5,7 @@
 
 /* Banner */
 /* Trailer */
+/* Mixing */
 /* /////////////////////// */
 body {
   background-color: 343940; }
@@ -50,16 +51,17 @@ body {
         color: #1a1616; }
 
 .rotateWorld {
-  padding: 20px; }
+  padding: 5px; }
   .rotateWorld img {
     padding: 5px;
-    width: 200px; }
+    width: 300px; }
 
 .otherProjectsImg {
+  padding: 20px;
   text-align: center; }
   .otherProjectsImg img {
-    width: 250px;
-    padding: 20px; }
+    padding: 20px;
+    width: 250px; }
 
 .sectionJustify h1 {
   text-align: center;
