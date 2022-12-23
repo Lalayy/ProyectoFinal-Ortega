@@ -1,9 +1,13 @@
 /* Banner */
-$banner-background-color:343940;
+$banner-background-color:#343940;
 $banner-title-color:yellow;
 
+
+/* Body */
+$body-background-color: #9DA3A4;
+$body-main-background-color: #447e7e;
 /* Trailer */
-$trailer-background-color:#483D8B;
+$trailer-background-color:#1d1b2c;
 
 /* Mixing */
 @mixin sectionImg($padding, $with){

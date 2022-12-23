@@ -4,30 +4,31 @@
   box-sizing: border-box; }
 
 /* Banner */
+/* Body */
 /* Trailer */
 /* Mixing */
 /* /////////////////////// */
 body {
-  background-color: 343940; }
+  background-color: #9DA3A4; }
   body header {
-    background-color: headerBG; }
+    background-color: #343940; }
     body header .banner {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       align-items: center;
       height: 200px;
-      background-color: 343940;
+      background-color: #343940;
       width: auto; }
       body header .banner img {
         height: 150px; }
       body header .banner h1 {
         color: yellow; }
   body main {
-    background-color: #5e3f54; }
+    background-color: #447e7e; }
     body main .sectionTrailer {
       height: 250px;
-      background-color: #483D8B;
+      background-color: #1d1b2c;
       display: flex;
       align-items: center;
       justify-content: center; }
@@ -51,9 +52,9 @@ body {
         color: #1a1616; }
 
 .rotateWorld {
-  padding: 5px; }
+  padding: 0; }
   .rotateWorld img {
-    padding: 5px;
+    padding: 0;
     width: 300px; }
 
 .otherProjectsImg {
@@ -63,15 +64,27 @@ body {
     padding: 20px;
     width: 250px; }
 
+.aboutUsStudioLocation img {
+  width: 300px;
+  padding: 10px; }
+
 .sectionJustify h1 {
   text-align: center;
-  color: white; }
+  color: white;
+  padding: 20px 10% 5% 10%; }
 
 .sectionJustify p {
-  padding: 20px;
+  padding: 20px 10% 20px 10%;
   border: 20px;
   text-align: justify;
   color: white; }
+
+.aboutUsFormulario {
+  padding: 20px;
+  width: 400px;
+  background-color: #D5C5C8; }
+  .aboutUsFormulario form fieldset legend {
+    color: #070707; }
 
 @media screen and (min-width: 400px) {
   body header .banner {
@@ -80,7 +93,7 @@ body {
     height: 250px; }
   body main .sectionTrailer {
     height: 400px;
-    background-color: #483D8B;
+    background-color: #1d1b2c;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -90,7 +103,10 @@ body {
     text-align: center; }
     .otherProjectsImg img {
       width: 350px;
-      padding: 20px; } }
+      padding: 20px; }
+  .aboutUsStudioLocation img {
+    width: 550px;
+    padding: 30px; } }
 
 @keyframes rotacion {
   from {

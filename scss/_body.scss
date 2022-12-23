@@ -1,14 +1,14 @@
 body{
-    background-color: $banner-background-color;
+    background-color: $body-background-color;
     header{
-        background-color: headerBG;
+        background-color: $banner-background-color;
         .banner{
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             align-items: center;
             height: 200px;
-            background-color: $banner-background-color;
+            background-color : $banner-background-color;
             width: auto;
             & img{
                 height: 150px;
@@ -19,7 +19,7 @@ body{
         }
     }
     main{
-        background-color: rgb(94, 63, 84);
+        background-color:$body-main-background-color;
 
         .sectionTrailer{
             height: 250px;
@@ -54,7 +54,7 @@ body{
     }
 }
 .rotateWorld{
-@include sectionImg (5px, 300px)
+@include sectionImg (0, 300px)
 }
 .otherProjectsImg{
     padding: 20px;
@@ -63,16 +63,36 @@ body{
         padding: 20px;
         width: 250px;
     }
-  }
+}
+.aboutUsStudioLocation{
+
+    img{
+    width: 300px;
+    padding: 10px;
+    }
+}
 .sectionJustify{
     & h1{
         text-align: center;
         color: white;
+        padding: 20px 10% 5% 10%;
     }
     & p{
-        padding: 20px;
+        padding: 20px 10% 20px 10%;
         border: 20px;
         text-align: justify;
         color: white;
+    }
+}
+.aboutUsFormulario{
+    padding: 20px;
+    width: 400px;
+    background-color:#D5C5C8;
+    form{
+        fieldset{
+            legend{
+                color: rgb(7, 7, 7);
+            }
+        }
     }
 }
